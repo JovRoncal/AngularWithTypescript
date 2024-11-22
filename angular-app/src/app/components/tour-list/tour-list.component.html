@@ -1,0 +1,8 @@
+<p>tour-list works!</p>
+
+<input type="text" [(ngModel)]="newItem" placeholder="Add Tour Date" />
+<button class="btn btn-primary" (click)="addItem()">Add Tour Date</button>
+
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>

@@ -1,0 +1,8 @@
+<p>sports-list works!</p>
+
+<input type="text" [(ngModel)]="newItem" placeholder="Add new sport" />
+<button class="btn btn-primary" (click)="addItem()">Add Sport</button>
+
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>

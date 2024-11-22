@@ -1,0 +1,8 @@
+<p>music-playlist works!</p>
+
+<input type="text" [(ngModel)]="newItem" placeholder="Add Playlist" />
+<button class="btn btn-primary" (click)="addItem()">Add Playlist</button>
+
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>

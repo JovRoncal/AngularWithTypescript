@@ -1,0 +1,17 @@
+nav {
+  background-color: #000000;
+}
+
+nav button {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  width: 190px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav button:hover {
+  background-color:#1877f2;
+
+}

@@ -1,0 +1,8 @@
+<p>game-list works!</p>
+
+<input type="text" [(ngModel)]="newItem" placeholder="Add new game" />
+<button class="btn btn-primary" (click)="addItem()">Add Game</button>
+
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>

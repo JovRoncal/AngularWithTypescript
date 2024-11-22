@@ -1,0 +1,8 @@
+<p>product-list works!</p>
+
+<input type="text" [(ngModel)]="newItem" placeholder="Add new product" />
+<button class="btn btn-primary" (click)="addItem()">Add Product</button>
+
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>

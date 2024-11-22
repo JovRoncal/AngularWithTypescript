@@ -1,0 +1,8 @@
+<p>framework-list works!</p>
+
+<input type="text" [(ngModel)]="newItem" placeholder="Add Framework" />
+<button class="btn btn-primary" (click)="addItem()">Add Framework</button>
+
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>

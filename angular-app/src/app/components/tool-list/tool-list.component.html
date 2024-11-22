@@ -1,0 +1,8 @@
+<p>tool-list works!</p>
+
+<input type="text" [(ngModel)]="newItem" placeholder="Add Tool" />
+<button class="btn btn-primary" (click)="addItem()">Add Tool</button>
+
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>

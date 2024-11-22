@@ -1,0 +1,8 @@
+<p>flower-list works!</p>
+
+<input type="text" [(ngModel)]="newItem" placeholder="Add Flower" />
+<button class="btn btn-primary" (click)="addItem()">Add Flower</button>
+
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>

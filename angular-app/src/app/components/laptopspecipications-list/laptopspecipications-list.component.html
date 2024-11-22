@@ -1,0 +1,8 @@
+<p>laptopspecipications-list works!</p>
+
+<input type="text" [(ngModel)]="newItem" placeholder="Add Specification" />
+<button class="btn btn-primary" (click)="addItem()">Add Specification</button>
+
+<ul>
+  <li *ngFor="let item of items">{{ item }}</li>
+</ul>
